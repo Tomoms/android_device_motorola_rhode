@@ -27,3 +27,5 @@ BUILD_FINGERPRINT := "motorola/rhode_g/rhode:13/T2SRS33.72-22-4-1/2fddc-a2611a:u
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=rhode_g \
     PRIVATE_BUILD_DESC="rhode_g-user 13 T2SRS33.72-22-4-1 2fddc-a2611a release-keys"
+
+TARGET_UNOFFICIAL_BUILD_ID := Tom
