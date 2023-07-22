@@ -13,6 +13,8 @@ $(call inherit-product, device/motorola/rhode/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_UNOFFICIAL_BUILD_ID := Tom
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_rhode
 PRODUCT_DEVICE := rhode
