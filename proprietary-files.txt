@@ -22,6 +22,21 @@ vendor/firmware/aw882xx_spk_reg.bin
 vendor/firmware/aw_skt.bin
 
 # Camera
+app/MotoSignature2App/MotoSignature2App.apk;PRESIGNED
+app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
+etc/permissions/com.motorola.motosignature.xml
+framework/com.motorola.motosignature.jar
+product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
+product/etc/permissions/com.motorola.camera3.content.ai.xml
+product/etc/permissions/com.motorola.camera3.lens.xml
+product/etc/permissions/com.motorola.camera3.rhode.xml
+product/etc/permissions/com.motorola.camera3.xml
+product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
+product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
+product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
+product/priv-app/MotCamera3/MotCamera3.apk;PRESIGNED
+system_ext/etc/permissions/com.motorola.androidx.camera.extensions.xml
+system_ext/framework/com.motorola.androidx.camera.extensions.jar
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so
 vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov16a1q_eeprom.so
