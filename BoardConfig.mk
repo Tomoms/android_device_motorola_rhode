@@ -21,6 +21,7 @@ ODM_MANIFEST_SKUS += b
 ODM_MANIFEST_B_FILES := $(DEVICE_PATH)/sku/manifest_b.xml
 
 # Kernel
+TARGET_KERNEL_CLANG_VERSION := r475365b
 TARGET_KERNEL_CONFIG := lineageos_rhode_defconfig
 
 # Kernel Modules - Vendor Boot
