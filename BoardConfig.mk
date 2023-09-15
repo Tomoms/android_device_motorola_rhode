@@ -20,7 +20,7 @@ ODM_MANIFEST_SKUS += b
 ODM_MANIFEST_B_FILES := $(DEVICE_PATH)/sku/manifest_b.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/ext_config/rhode-default.config
+TARGET_KERNEL_CONFIG := lineageos_rhode_defconfig
 
 # Kernel Modules - Vendor Boot
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/vendor_boot.modules.load))
