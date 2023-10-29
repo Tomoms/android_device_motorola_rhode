@@ -23,6 +23,13 @@ ODM_MANIFEST_B_FILES := $(DEVICE_PATH)/sku/manifest_b.xml
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_rhode_defconfig
 
+# Kernel Modules - vendor_dlkm partition
+BOARD_USES_VENDOR_DLKMIMAGE := true
+BOARD_MOTO_DYNAMIC_PARTITIONS_PARTITION_LIST += vendor_dlkm
+BOARD_VENDOR_DLKMIMAGE_FILE_SYSTEM_TYPE := ext4
+TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
+AB_OTA_PARTITIONS += vendor_dlkm
+
 # Kernel Modules - Vendor Boot
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/vendor_boot.modules.load))
 BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD)
