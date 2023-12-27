@@ -181,6 +181,52 @@ vendor/usr/keylayout/uinput-egis.kl
 # Graphics (Adreno firmware)
 vendor/firmware/a630_sqe.fw
 
+# MotCamera4
+system/app/MotoSignature2App/MotoSignature2App.apk;PRESIGNED
+system/app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
+system/etc/permissions/com.motorola.frameworks.core.addon.xml
+system/etc/permissions/com.motorola.motosignature.xml
+system/etc/permissions/moto-core_services.xml
+system/framework/com.motorola.frameworks.core.addon.jar
+system/framework/com.motorola.motosignature.jar
+system/framework/moto-core_services.jar
+vendor/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc
+vendor/lib64/hw/motorola.hardware.camera.imgtuner@1.0-impl.so
+system/lib64/motorola.hardware.camera.imgtuner@1.0.so;SYMLINK=vendor/lib64/motorola.hardware.camera.imgtuner@1.0.so
+vendor/lib/hw/motorola.hardware.camera.imgtuner@1.0-impl.so
+system/lib/motorola.hardware.camera.imgtuner@1.0.so;SYMLINK=vendor/lib/motorola.hardware.camera.imgtuner@1.0.so
+vendor/bin/hw/motorola.hardware.camera.imgtuner@1.0-service
+system_ext/lib/motorola.hardware.camera.imgtuner@2.0.so
+system_ext/lib64/motorola.hardware.camera.imgtuner@2.0.so
+product/app/MotCamera3AI/MotCamera3AI.apk:system_ext/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
+product/etc/permissions/com.motorola.camera3.content.ai.xml:system_ext/etc/permissions/com.motorola.camera3.content.ai.xml
+product/etc/permissions/com.motorola.camera3.lens.xml:system_ext/etc/permissions/com.motorola.camera3.lens.xml
+product/etc/permissions/com.motorola.camera3.rhode.xml:system_ext/etc/permissions/com.motorola.camera3.rhode.xml
+product/etc/permissions/com.motorola.camera3.xml:system_ext/etc/permissions/com.motorola.camera3.xml
+product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml:system_ext/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
+product/etc/permissions/feature-com.motorola.screenshoteditor.xml:system_ext/etc/permissions/feature-com.motorola.screenshoteditor.xml
+product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:system_ext/etc/permissions/privapp-permissions-com.motorola.camera3.xml
+product/etc/permissions/privapp-permissions-com.motorola.screenshoteditor.xml:system_ext/etc/permissions/privapp-permissions-com.motorola.screenshoteditor.xml
+product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
+product/etc/sysconfig/hiddenapi-whitelist-com.motorola.screenshoteditor.xml:system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.screenshoteditor.xml
+product/priv-app/MotCamera4/MotCamera4.apk:system_ext/priv-app/MotCamera4/MotCamera4.apk;PRESIGNED
+system_ext/etc/permissions/com.motorola.camera.desktop.xml
+system_ext/etc/permissions/com.motorola.imager.V5.xml
+system_ext/etc/permissions/com.motorola.imager.access_V5.xml
+system_ext/etc/permissions/com.motorola.imagertuning.v5.xml
+system_ext/etc/permissions/com.motorola.imagertuning5.rhode.xml
+system_ext/etc/permissions/com.motorola.libimgTuner.xml
+system_ext/etc/permissions/privapp-permissions-com.motorola.imagertuning_V5.xml
+system_ext/etc/permissions/privapp-permissions-com.motorola.motcameradesktop.xml
+system_ext/etc/public.libraries-motocameradesktop.txt
+system_ext/etc/public.libraries-motoimagetuner.txt
+system_ext/etc/sysconfig/hiddenapi-whitelist-com.motorola.motcameradesktop.xml
+system_ext/framework/com.motorola.hardware.camera.desktop.jar
+system_ext/framework/com.motorola.imager.V5.jar
+system_ext/framework/com.motorola.libimgTuner.jar
+system_ext/lib/libimgTuner_jni.motoimagetuner.so
+system_ext/priv-app/ImagerTuning-V5/ImagerTuning-V5.apk;PRESIGNED
+
 # NFC (Samsung)
 vendor/etc/init/android.hardware.nfc@1.2-service.sec.rc
 vendor/etc/init/init.nfc.sec.rc
