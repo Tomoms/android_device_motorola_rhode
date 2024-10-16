@@ -191,11 +191,11 @@ system/framework/com.motorola.frameworks.core.addon.jar
 system/framework/com.motorola.motosignature.jar
 system/framework/moto-core_services.jar
 vendor/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc
-vendor/lib64/hw/motorola.hardware.camera.imgtuner@1.0-impl.so
+vendor/lib64/hw/motorola.hardware.camera.imgtuner@1.0-impl.so;DISABLE_CHECKELF
 system/lib64/motorola.hardware.camera.imgtuner@1.0.so;SYMLINK=vendor/lib64/motorola.hardware.camera.imgtuner@1.0.so
-vendor/lib/hw/motorola.hardware.camera.imgtuner@1.0-impl.so
+vendor/lib/hw/motorola.hardware.camera.imgtuner@1.0-impl.so;DISABLE_CHECKELF
 system/lib/motorola.hardware.camera.imgtuner@1.0.so;SYMLINK=vendor/lib/motorola.hardware.camera.imgtuner@1.0.so
-vendor/bin/hw/motorola.hardware.camera.imgtuner@1.0-service
+vendor/bin/hw/motorola.hardware.camera.imgtuner@1.0-service;DISABLE_CHECKELF
 system_ext/lib/motorola.hardware.camera.imgtuner@2.0.so
 system_ext/lib64/motorola.hardware.camera.imgtuner@2.0.so
 product/app/MotCamera3AI/MotCamera3AI.apk:system_ext/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
